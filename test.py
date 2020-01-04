@@ -257,7 +257,7 @@ def test_model():
     #result['Predicted'].astype(np.float32)
     result['Predicted']=modelresult.numpy()
     print(result['Predicted'])
-    result.to_csv('submit.csv', index=False)
+    result.to_csv('submission.csv', index=False)
 
 
 if __name__ == "__main__":
